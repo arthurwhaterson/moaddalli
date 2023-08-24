@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>معدلي</title>
+    <link rel="stylesheet" href="indexStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=El+Messiri&display=swap" rel="stylesheet">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <a href="index.html">
+      <p class="logo"> معدلي</p>
+    </a>
+      <p class="first-p">أهلاً وسهلاً بكم في موقع معدلي <br> <span class="second-p">الموقع المغربي الأول لحساب المعدلات الدراسية بأفضل دقة ممكنة. </span></p>
+      <img src="media/main-img.webp" alt="" class="main-img">
+      <button onclick="scrollToSection()" id="scroll" class="clacul-button">أحسب معدلك الآن!</button>
+    </div>
+    <div id="scrolldiv" class="second-div">
+      <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0166f7" fill-opacity="1" 
+        d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,96C672,96,768,128,864,117.3C960,107,1056,53
+        ,1152,53.3C1248,53,1344,107,1392,133.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,
+        0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+      <p class="first-choose">إختر شعبتك :</p>
+    <br>
+      <select id="choos-id" class="select-1">
+         <option value="pc">العلوم الفيزيائية</option>
+         <option value="svt">علوم الحياة والأرض</option>
+         <option value="schuman">العلوم الإنسانية</option>
+         
+      </select>
+      <button onclick="getaValue()" class="sub">أحسب</button>
+      <p class="sorry-expretion">نتوفر فقط على ثلاثة شعب في الوقت الحالي نعمل جاهدين على تحسين خدماتنا لا تترد في تزويدنا بالمعلومات التي تخص شعبتك.</p>
+    </div>
+    <div id="inf" class="infos">
+      <p id="111" class="clac-2">أحسب أيضاً...</p>
+      <div class="national"></div>
+      <div class="regional"></div>
+    </div>
+    <script>
+window.addEventListener('load', function(){
+    window.scrollTo(0, 0);
+});
+const sectionToScroll = document.getElementById('scrolldiv');
+sectionToScroll.scrollIntoView({ behavior: 'smooth' });
+    function scrollToSection() {
+        const sectionToScroll = document.getElementById("scrolldiv");
+        sectionToScroll.scrollIntoView({ behavior: 'smooth' });
+    }
+
+//      function bt(){
+//        window.scrollTo({
+//         top : 900,
+//         behavior:"smooth",
+//       })
+
+//      }
+    function getaValue(){  
+        var val = document.getElementById("choos-id").value;    
+        if(val === "pc"){   
+        window.location.href =("pc.html");
+    }else if(val=== "svt"){
+        window.location.href =("svt.html");
+
+    }
+  
+ }
+ var deviceSystem = navigator.userAgent.toLowerCase();
+ if(deviceSystem.includes("microsoft edge")){
+  document.getElementById("111").style.color = "red";
+ }
+
+
+    </script>
+
+  </body>
+</html>

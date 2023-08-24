@@ -1,0 +1,203 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color:white;
+    font-family: 'Amiri', serif;
+    font-family: 'El Messiri', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.main-table{
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    border-collapse: collapse;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.main-table tr th {
+    background-color: #0166f7;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 30px;
+    justify-content: center;
+    
+
+}
+.subjects{
+    text-align: center;
+    color: black;
+    border-bottom:solid #ecf0f7 0.2px;
+    padding: 10px 15px 5px 30px;
+    border-left: solid #ecf0f7 0.2px ;
+}
+.coficient-number{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border-bottom:solid #ecf0f7 0.2px;
+    border-left: solid #ecf0f7 0.2px ;
+}
+
+.td-elements-inputs{
+    margin: 0px;
+    border-bottom:solid #ecf0f7 0.2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    border-left: solid #ecf0f7 0.2px ;
+}
+.inputs-elements{
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    outline: none;
+    border: solid white;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 20px;
+    width: 50px;
+
+
+
+}
+.wave-2{
+    position: absolute;
+    top: 0;
+}
+.results{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    right: 82%;
+    bottom:70px;
+}
+.index-number{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    right: 69%;
+    bottom:70px;
+
+}
+.results-exriession{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    right: 80.5%;
+    bottom:10px;
+    color: black;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    border: solid black 3px;
+    justify-content: center;
+
+}
+.number-index{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    right: 67%;
+    bottom:10px;
+    color: black;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    border: solid black 3px;
+    justify-content: center;
+
+
+}
+.botton-calcul{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    right: 600px;
+    bottom:32px;
+    color: #0166f7;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    border: solid #0166f7 3px;
+    cursor: pointer;
+    font-family: 'Amiri', serif;
+    font-family: 'El Messiri', sans-serif;
+    justify-content: center;
+
+}
+.botton-calcul:hover{
+    background-color: #0166f7;
+    color: white;
+
+}
+.presentation{
+    position: absolute;
+    top: 195px;
+    font-size: 20px;
+    align-items: center;
+    display:flex;
+}
+.filier{
+    position: absolute;
+    top: 120px;
+    font-size: 40px;
+    align-items: center;
+
+}
+.top-image{
+    position: absolute;
+    right: 76px;
+    top: 100px;
+    width: 320px;
+    height: 375px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.logo-1{
+    position: absolute;
+    top: 100px;
+    font-size: 30px;
+    right: 50px;
+    color: rgb(252, 3, 3);
+    font-family: 'El Messiri', sans-serif;
+    cursor: pointer;
+  
+  }
+.return{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    right: 15%;
+    bottom:32px;
+    color: #0166f7;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    border: solid #0166f7 3px;
+    cursor: pointer;
+    font-family: 'Amiri', serif;
+    font-family: 'El Messiri', sans-serif;
+
+}
+.ret:hover{
+    background-color: #0166f7;
+    color: white;
+
+}

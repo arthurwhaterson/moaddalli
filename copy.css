@@ -1,0 +1,159 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    behavior: "smooth";
+  
+  }
+  .main-div{
+    background-color:#0166f7;
+    width: 100%;
+    height: 912px;
+    
+  }
+  .second-div{
+    width: 100%;
+    height: 840px;
+  }
+  .first-p{
+    font-family: 'El Messiri', sans-serif;
+    color: white;
+    font-size: 4em;
+    position: absolute;
+    right: 180px;
+    top: 150px;
+  }
+  .second-p{
+    font-family: 'Amiri', serif;
+    font-family: 'El Messiri', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 1.5em;
+    right: 310px;
+    top: 250px;
+  
+  }
+  .wave{
+    position: absolute;
+    bottom: -315px;
+  }
+  .first-choose{
+    position: absolute;
+    bottom: -400px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Amiri', serif;
+    font-family: 'El Messiri', sans-serif;
+    cursor: pointer;
+    right: 530px;
+  }
+  .main-img{
+    position: absolute;
+    bottom: 140px;
+    right: 450px;
+    width: 350px;
+    height: 400px;
+  }
+  .clacul-button{
+    cursor: pointer;
+    position: absolute;
+    border-radius:30px;
+    border: solid #069fff;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    bottom: 30px;
+    right: 510px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .labe-1{
+    position: absolute;
+    bottom: -480px;
+    right: 580px;
+    font-family: 'Amiri', serif;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+  }
+  .select-1{
+    position: absolute;
+    bottom: -500px;
+    right: 380px;
+    padding-left: 130px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    border: solid #0166f7;
+    border-radius: 30px;
+    font-family: 'Amiri', serif;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    content: counter;
+  }
+  .sorry-expretion{
+    position: absolute;
+    color: black;
+    bottom: -800px;
+    right:200px ;
+    font-family: 'Amiri', serif;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 17px;
+  }
+  ::-webkit-scrollbar{
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: white ;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #069fff;
+    border-radius: 20px;
+  }
+  .clacul-button:hover{
+    background-color:#0166f7 ;
+    border: solid white;
+    color: white;
+  }
+  .infos{
+    background-color:#0166f7 ;
+    width: 100%;
+    height: 875px;
+  
+  }
+  .clac-2{
+    position: absolute;
+    font-size: 50px;
+    right: 42%;
+    top:1900px;
+    font-family: 'El Messiri', sans-serif;
+    color: white; 
+  }
+  .sub{
+    cursor: pointer;
+    position: absolute;
+    border-radius:30px;
+    border: solid #0166f7 ;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    top: 1550px;
+    right: 520px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    color: black;
+  
+    
+  }
+  .logo{
+    position: absolute;
+    top: 30px;
+    font-size: 30px;
+    right: 10px;
+    color: white;
+    font-family: 'El Messiri', sans-serif;
+    cursor: pointer;
+  
+  }
